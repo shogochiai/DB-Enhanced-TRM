@@ -93,9 +93,9 @@ If you use this work in your research, please cite:
 ```bibtex
 @article{dbenhancedtrm2024,
   title={DB-Enhanced Tiny Recursive Models: Robust Lightweight Retrieval under Adversarial and Out-of-Distribution Inputs},
-  author={Manus AI},
-  year={2024},
-  journal={arXiv preprint},
+  author={Shogo Ochiai},
+  year={2025},
+  journal={Zenodo preprint},
   doi={10.5281/zenodo.18065981}
 }
 ```
