@@ -1,6 +1,6 @@
 # DB-Enhanced Tiny Recursive Models: Robust Lightweight Retrieval under Adversarial and Out-of-Distribution Inputs
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/1123528643.svg)](https://doi.org/10.5281/zenodo.18065980)
 
 This repository contains the complete implementation, datasets, and experimental results for the paper **"DB-Enhanced Tiny Recursive Models: Robust Lightweight Retrieval under Adversarial and Out-of-Distribution Inputs"**.
 
@@ -96,7 +96,7 @@ If you use this work in your research, please cite:
   author={Manus AI},
   year={2024},
   journal={arXiv preprint},
-  doi={10.5281/zenodo.XXXXXXX}
+  doi={10.5281/zenodo.18065981}
 }
 ```
 
@@ -112,6 +112,4 @@ The TRM model used in this research was developed as part of an internal softwar
 
 For questions or issues, please open an issue on this repository or contact the authors.
 
----
 
-**Note**: The DOI will be updated once the Zenodo integration is complete.
