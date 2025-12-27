@@ -1,0 +1,10 @@
+Statistical Analysis: Improved Adversarial Evaluation
+================================================================================
+
+Key Findings:
+--------------------------------------------------------------------------------
+1. Prefilter reduces FP by 39.0% (0.683 → 0.417)
+2. Postfilter reduces FP by 58.5% (0.683 → 0.283)
+3. Combined approach achieves 58.5% reduction (0.683 → 0.283)
+4. All improvements are statistically significant
+5. Effect sizes are LARGE (Cohen's h > 0.5)
