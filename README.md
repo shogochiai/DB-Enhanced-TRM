@@ -106,7 +106,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-This research was conducted using the LazyCore STPM (Semantic Test-to-Requirement Parity Matcher) production TRM model. We thank the LazyCore team for providing access to the model architecture and implementation details.
+The TRM model used in this research was developed as part of an internal software quality assurance project. We thank the development team for providing access to the trained model for research purposes.
 
 ## Contact
 
