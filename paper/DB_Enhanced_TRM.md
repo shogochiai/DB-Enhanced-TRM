@@ -65,23 +65,11 @@ The database is fixed after construction and is not updated during model trainin
 
 Let ( $x$ ) and ( $y$ ) denote an input pair. We define:
 
-* A deterministic prefilter
-  $$
-  P_{\text{DB}}(x, y) \in {0,1}
-  $$
-* A TRM scoring function
-  $$
-  s_\theta(x, y)
-  $$
-* A deterministic postfilter
-  $$
-  F_{\text{DB}}: \mathbb{R} \rightarrow \mathbb{R}
-  $$
+* A deterministic prefilter: $P_{\text{DB}}(x, y) \in \{0,1\}$
+* A TRM scoring function: $s_\theta(x, y)$
+* A deterministic postfilter: $F_{\text{DB}}: \mathbb{R} \rightarrow \mathbb{R}$
 
-The final score is given by:
-$$
-\text{Score}(x, y) = P_{\text{DB}}(x, y) \cdot F_{\text{DB}}(s_\theta(x, y))
-$$
+The final score is given by: $\text{Score}(x, y) = P_{\text{DB}}(x, y) \cdot F_{\text{DB}}(s_\theta(x, y))$
 
 This formulation enforces a clear responsibility separation: the database handles structural validity, while the TRM models residual semantic similarity.
 
@@ -104,10 +92,7 @@ Each adversarial example applies exactly one transformation.
 In addition to standard accuracy, we emphasize:
 
 * **Adversarial False Positive Rate (FP_adv)**
-* **Robustness Score:**
-  $$
-  R = 1 - \text{FP}_{\text{adv}}
-  $$
+* **Robustness Score:** $R = 1 - \text{FP}_{\text{adv}}$
 
 These metrics directly reflect operational risk.
 
